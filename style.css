@@ -1,0 +1,53 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.passo {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.passo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.passo p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.passo.ativo {
+  display: flex;
+}
+
+button.btn-proximo {
+  background-color: #00ffc8;
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button.btn-proximo:hover {
+  background-color: #00cfa1;
+}
